@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksap_architecture_center=globalThis.webpackChunksap_architecture_center||[]).push([[95041],{95041(e,c,a){a.d(c,{createEventModelingServices:()=>r.g});var r=a(76737);a(51400)}}]);

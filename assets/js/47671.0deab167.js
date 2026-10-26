@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksap_architecture_center=globalThis.webpackChunksap_architecture_center||[]).push([[47671],{47671(e,a,c){c.d(a,{createTreemapServices:()=>r.d});var r=c(14687);c(51400)}}]);

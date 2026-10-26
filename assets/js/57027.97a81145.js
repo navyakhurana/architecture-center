@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksap_architecture_center=globalThis.webpackChunksap_architecture_center||[]).push([[57027],{57027(e,a,c){c.d(a,{addCustomCSS:()=>t.k6});var t=c(71684);c(2908)}}]);
