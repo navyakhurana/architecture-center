@@ -94,8 +94,8 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="explore-the-reference-architectures">Explore the reference architectures<a href="https://navyakhurana.github.io/architecture-center/news/2026/10/27/a2a-agent-gateway-interoperability#explore-the-reference-architectures" class="hash-link" aria-label="Direct link to Explore the reference architectures" title="Direct link to Explore the reference architectures" translate="no">​</a></h2>
 <p>Detailed guidance on identity, trust, onboarding, and runtime integration patterns is available in the SAP Architecture Center:</p>
 <ul>
-<li class=""><a class="" href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/integrating-joule-agents-into-your-ecosystem">Integrating Joule Agents into Your Ecosystem</a></li>
-<li class=""><a class="" href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/a2a-mcp-ai-agent-interoperability-sap-btp">A2A and MCP for AI Agent Interoperability on SAP BTP</a></li>
+<li class=""><a class="" href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/fe0d1d">Integrating Joule Agents into Your Ecosystem</a></li>
+<li class=""><a class="" href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/76ec36">A2A and MCP for AI Agent Interoperability on SAP BTP</a></li>
 </ul>
 <p>By combining standards-based discovery, open agent communication, and governed access, SAP is making its trusted business capabilities available in the broader enterprise AI ecosystem.</p>]]></content:encoded>
         </item>
