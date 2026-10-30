@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch</id>
+    <title>SAP Architecture Center - Reference Architectures</title>
+    <updated>2026-10-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://navyakhurana.github.io/architecture-center/docs/ref-arch"/>
+    <link rel="self" href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/atom.xml"/>
+    <subtitle>The most recently updated SAP reference architectures from the SAP Architecture Center.</subtitle>
+    <icon>https://navyakhurana.github.io/architecture-center/img/favicon.ico</icon>
+    <rights>Copyright © 2026 navyakhurana</rights>
+    <entry>
+        <title type="html"><![CDATA[Transitioning Architectures from SAP NetWeaver]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/4b76ae</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/4b76ae"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Transition from SAP NetWeaver-based products nearing 2027 end of maintenance, with successor solutions, integration strategies, and security considerations.]]></summary>
+        <content type="html"><![CDATA[This content is brought to you by Glencore, an SAP customer. A large base of SAP customers is on NetWeaver-based products. These products are approaching the end of standard maintenance in 2027 (see note 1648480). SAP has either made successor products available or named the successor products, which can be found in PAM. This section of the Architecture Center is dedicated to outlining the options for customers for various use cases. Background Technology, like all good things, changes. Adopting...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrate SAP PI/PO to SAP Integration Suite]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/8566b4</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/8566b4"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Migrate from SAP PI/PO to SAP Integration Suite, an iPaaS on SAP BTP, before 2027 end of maintenance — covering benefits, migration tools, and lower TCO.]]></summary>
+        <content type="html"><![CDATA[This content is brought to you by Glencore, an SAP customer. SAP Process Integration / Process Orchestration (PI/PO) is a NetWeaver-based solution for meeting cross-domain integration needs that serve both intra- and inter-company scenarios. As it approaches the end of standard maintenance in 2027, customers need to plan migrations to a modern integration solution that offers robust, scalable, and secure integration capabilities. Customers do have the option to extend maintenance until 2030, aft...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DevOps on SAP BTP with CI/CD and SAP Build]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/b51e91</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/b51e91"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Adopt agile DevOps principles on SAP BTP with cloud services and tools for streamlined application lifecycle management.]]></summary>
+        <content type="html"><![CDATA[DevOps is a key enabler for achieving high-level agility and quality in development projects – including SAP enterprise environments. Although DevOps is primarily a cultural approach, tools can help foster agile development principles throughout the lifecycle of applications. To enable corresponding projects on SAP BTP, the platform provides cloud services and offerings for SAP customers and partners, as described in this reference architecture. If you have special needs or existing infrastructu...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[App2App Integration with SAP Integration Suite]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/6501d5</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/6501d5"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enable seamless App2App integration with SAP Integration Suite for near real-time transactional data exchange across internal processes.]]></summary>
+        <content type="html"><![CDATA[With the help of application-to-application (App2App) integration, you can exchange transactional data along internal company processes by connecting involved business applications in a (near-) real-time fashion. Messages are used for exchanging transactional data, which trigger the execution of the next process step in a connected business solution. Transactional data refers to data about ongoing business activities such as physical goods movement or sales order documents. This reference archit...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Integration Suite Edge Integration Cell on Hyperscalers]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/0a229d</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/0a229d"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deploy SAP Integration Suite - Edge Integration Cell on AWS, Azure, or GCP for secure, compliant hybrid integration with local execution and data residency.]]></summary>
+        <content type="html"><![CDATA[In today's enterprise landscape, organizations are under increasing pressure to modernize their integration strategies. They must connect a growing mix of SAP and non-SAP systems, deployed across cloud, on-premise, and hybrid environments — all while adhering to strict data security, regulatory compliance, and performance expectations. SAP Integration Suite – Edge Integration Cell (EIC) emerges as a strategic solution to these challenges. It enables customers to deploy integration capabilities w...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Integration Suite Edge Integration Cell on GCP]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/04c9a0</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/04c9a0"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deploy SAP Integration Suite - Edge Integration Cell on GCP using Google Kubernetes Engine, Cloud SQL, and multi-AZ setup for secure hybrid integration.]]></summary>
+        <content type="html"><![CDATA[SAP Integration Suite – Edge Integration Cell (EIC) can be deployed on Google Cloud Platform (GCP) to leverage its scalable infrastructure while maintaining secure and controlled execution in a customer-managed environment. This architecture combines GCP-native services with EIC’s hybrid capabilities, ensuring a seamless integration experience. Architecture Overview Deploying EIC on GCP requires a secure, scalable, and resilient infrastructure that adheres to enterprise compliance and hybrid clo...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Integration Suite Edge Integration Cell on Azure]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/0ae6b4</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/0ae6b4"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deploy SAP Integration Suite - Edge Integration Cell on Azure using Azure Kubernetes Service, PostgreSQL, and multi-AZ setup for secure hybrid integration.]]></summary>
+        <content type="html"><![CDATA[SAP Integration Suite – Edge Integration Cell (EIC) can be deployed on Azure to leverage its scalable infrastructure while maintaining secure and controlled execution in a customer-managed environment. This architecture combines Azure-native services with EIC’s hybrid capabilities, ensuring a seamless integration experience. Architecture Overview Deploying EIC on Azure requires a secure, scalable, and resilient infrastructure that adheres to enterprise compliance and hybrid cloud best practices....]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Integration Suite Edge Integration Cell on AWS]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/cd0961</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/cd0961"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deploy SAP Integration Suite - Edge Integration Cell on AWS using Amazon EKS, RDS, and multi-AZ networking for secure, highly available hybrid integration.]]></summary>
+        <content type="html"><![CDATA[SAP Integration Suite – Edge Integration Cell (EIC) can be deployed on Amazon Web Services (AWS) to leverage its scalable infrastructure while maintaining secure and controlled execution in a customer-managed environment. This architecture combines AWS-native services with EIC’s hybrid capabilities, ensuring a seamless integration experience. Architecture Overview Deploying EIC on AWS requires a secure, scalable, and resilient infrastructure that adheres to enterprise compliance and hybrid cloud...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini Enterprise Integration with Joule Agents]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/c9a3f8</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/c9a3f8"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Connect Google Gemini Enterprise or GCP Agent Platform to Joule Agents via the SAP Agent Gateway, using a proxy agent on Google Agent Runtime and OAuth with SAP Cloud Identity Services.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state that highlights the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular, the Agent Gateway is not yet GA. The pattern outlined here shows how the integration between Google Gemini Enterprise and SAP can be done today and will evolve as those capabilities are released. Google Gemini Enterpris...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP IAM integration with SAP Cloud Identity Services]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/89ab6b</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/89ab6b"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Design authentication and role management flows for SAP SaaS with SAP Cloud Identity Services.]]></summary>
+        <content type="html"><![CDATA[These reference architectures delve into the critical aspects of Identity Access Management (IAM) for SAP, focusing on essential elements such as user storage, replication, identity lifecycle, authentication, and authorization — and increasingly on identity for autonomous AI actors. The SAP Cloud Identity Services serve as the designated Identity and Access Management interface for SAP SaaS integrations. Two Integration Models IAM for SAP can be realized in two complementary ways, and this refer...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP-Managed IAM Integration]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/7f21ac</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/7f21ac"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SAP-operated IAM integration between SAP solutions, delivered as part of the SAP Business AI Platform — entry point to the SAP-managed model covered in the AI Platform reference architectures.]]></summary>
+        <content type="html"><![CDATA[The SAP-managed integration model is the complementary counterpart to the Customer-Managed Integration within Identity Access Management for SAP. In this model, SAP operates the IAM integration between SAP solutions as part of a managed experience — the foundation for unified experiences such as SAP Joule and the agentic capabilities of the SAP Business AI Platform. Because it is delivered as part of the platform, the full SAP-managed IAM reference architecture is maintained under the SAP Busine...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Customer-Managed IAM Integration]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/a7f3c1</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/a7f3c1"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Customer-operated IAM for SAP with SAP Cloud Identity Services, covering authentication and single sign-on, identity lifecycle, and authorization.]]></summary>
+        <content type="html"><![CDATA[In the customer-managed integration model, the customer owns and operates the IAM integration for an SAP landscape in which SAP is one vendor among several. SAP Cloud Identity Services is configured as the single, trusted interface between the customer's enterprise IAM tooling (third-party Identity Providers, Identity Management solutions, Identity Governance) and the SAP solutions in the landscape. This model standardizes how IAM is implemented for SAP SaaS. It provides a centralized location t...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authorization with SAP Cloud Identity Services]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/d9c3e6</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/d9c3e6"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Centralize identity lifecycle management with SAP Cloud Identity Services for secure authorization across SAP SaaS solutions.]]></summary>
+        <content type="html"><![CDATA[Authorizations are domain specific and still the aim is that they can be assigned to an identity centrally. Traditionally authorizations are defined in the application and are not centrally managed. This leads to a huge effort to maintain the authorizations and to ensure that the least-privilege-methodology is applied across different stacks and solutions. Architecture SAP uses for the authorization assignments in an identity lifecycle the Identity Directory. Identity Directory is a SCIM complia...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Identity lifecycle with SAP Cloud Identity Services]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/0f59a3</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/0f59a3"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This reference architecture describes the identity lifecycle flows for SAP SaaS via the SAP Cloud Identity Services.]]></summary>
+        <content type="html"><![CDATA[Every user has a user account in each system that provides services for the business scenarios that are relevant for that user. Users may be employees, consumers, or business partners, with corresponding authorization assignments. Architecture Flow The flow contains two major aspects 1. The derivation of an Identity from a Workforce Person and 2. The assignment of access to the Identity which implicit requires the replication into the target systems. A Workforce Person is an entity which represe...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authentication with SAP Cloud Identity Services]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/3ec73b</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/3ec73b"/>
+        <updated>2026-10-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This reference architecture describes the authentication flows for SAP SaaS via the SAP Cloud Identity Services - Identity Authentication.]]></summary>
+        <content type="html"><![CDATA[The main actors in the model, aside from human interaction, are identity providers, service providers, and the SAP BTP-supported IAM services. As depicted in the figure, identity providers are systems that vouch for the identity of users requesting access to service provider systems by issuing a security token that eliminates repeated authentication. Service providers are systems providing business and technical services requisite for user tasks. Architecture The SAP Cloud Identity Services can...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agentic AI & AI Agents on SAP Business AI Platform]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/98efa0</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/98efa0"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Build, integrate and orchestrate AI agents on the SAP Business AI Platform—from Joule Work and Joule Studio to pro-code agents, A2A and MCP interoperability.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state highlighting the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular the bidirectional communication with 3rd-party and self-hosted agents through Agent Gateway is not yet supported. Full bidirectional capabilities are expected to be released soon and will evolve the architecture accordingly...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agentic Engineering for SAP Extensions]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/0821c4</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/0821c4"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Agentic engineering for SAP extensions on SAP Business AI Platform: context engineering, SAP MCP server grounding, multi-agent orchestration and governed AI model access.]]></summary>
+        <content type="html"><![CDATA[AI coding agents generate code rapidly, but ungrounded generation compounds costs across quality, security, rework and time to value. Without authoritative sources these agents produce code based on incorrect APIs, deprecated patterns and insecure dependencies. Agentic engineering with context engineering addresses this by connecting coding agents to an infrastructure of SAP knowledge sources, automated quality pipelines and governed model access. Generated code is produced rapidly with quality...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating Joule Agents into Your Ecosystem (Inbound A2A)]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/fe0d1d</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/fe0d1d"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to expose Joule agents for consumption by third-party applications and external systems using the Agent Gateway with the A2A protocol.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state highlighting the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular the bidirectional communication with 3rd-party and self-hosted agents through Agent Gateway is not yet supported. Full bidirectional capabilities are expected to be released soon and will evolve the architecture accordingly...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating AI Agents with Joule (Outbound A2A)]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/ae6821</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/ae6821"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn the architectural patterns for integrating AI agents via A2A with Joule for a unified user experience.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state highlighting the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular the bidirectional communication with 3rd-party and self-hosted agents through Agent Gateway is not yet supported. Full bidirectional capabilities are expected to be released soon and will evolve the architecture accordingly...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom Pro-Code AI Agents on a Customer-Managed Subaccount]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/7b6426</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/7b6426"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Build and deploy custom pro-code AI agents on a customer-managed subaccount on SAP Business AI Platform with SAP Cloud SDK for AI and frameworks like LangGraph or CrewAI, connected to Joule via A2A.]]></summary>
+        <content type="html"><![CDATA[For complex, mission-critical use cases that require deep customization, fine-tuned workflows, or integration with non-standard enterprise systems, a customer-managed subaccount on SAP Business AI Platform provides a comprehensive pro-code development stack. Pro-code AI agents offer developers full control over every aspect of the agent's behavior, from reasoning logic to system integration, while leveraging SAP's enterprise-grade AI infrastructure. Architecture Pro-code agents on a customer-man...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building AI Agents with SAP Joule Studio]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/219c07</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/219c07"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Build, deploy and connect AI agents with Joule Studio, SAP's AI-native environment, using the browser-based Low-Code Flow or CLI-driven Pro-Code Flow.]]></summary>
+        <content type="html"><![CDATA[Joule Studio is SAP's AI-native development environment for building custom agents, apps, and workflows — grounded in SAP business context and deployed to the SAP-managed runtime as part of the SAP Business AI Platform. The underlying methodology is Intent-Based Development (IBD) : a structured, AI-driven workflow that takes you from a business intent all the way to a deployed, production-ready solution. IBD works by combining SAP-specific knowledge (SAP Knowledge Graph, SAP LeanIX enterprise la...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Third-Party MCP Access to SAP Solutions]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/137800</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/137800"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Access SAP solutions via third-party MCP servers: governance guardrails, OWASP MCP Top 10 risks, and SAP's managed MCP via Integration Suite and Joule Studio.]]></summary>
+        <content type="html"><![CDATA[Model Context Protocol (MCP) is an open standard that defines how AI models and agents can discover, understand and interact with external tools and their surrounding context. It acts as a universal adapter, allowing agents to consume tools, from simple functions to complex APIs, without needing to know their underlying implementation details. MCP is a connectivity protocol and the protocol itself standardizes how agents call tools and APIs, but does not add business context or improve the accur...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Copilot Studio with MCP Gateway in SAP Integration Suite]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/d2e34e</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/d2e34e"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Connect Microsoft Copilot Studio to SAP as an MCP client through the MCP Gateway in SAP Integration Suite, with single sign-on and identity propagation.]]></summary>
+        <content type="html"><![CDATA[The Agent Gateway is not yet generally available (GA). The outlined architecture here shows ways how the integration with Copilot Studio and SAP can be done today. Microsoft Copilot Studio is Microsoft's low-code platform for building and orchestrating AI agents across Microsoft 365, Teams, and custom channels. If you are new to Copilot Studio, start with the official product documentation: Microsoft Copilot Studio documentation. Through the Model Context Protocol (MCP) , a Copilot Studio agent...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A2A and MCP for AI Agent Interoperability at SAP]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/76ec36</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/76ec36"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how the Agent2Agent (A2A) and Model Context Protocol (MCP) enable a decoupled, interoperable and scalable AI agent ecosystem on SAP Business AI Platform.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state highlighting the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular the bidirectional communication with 3rd-party and self-hosted agents through Agent Gateway is not yet supported. Full bidirectional capabilities are expected to be released soon and will evolve the architecture accordingly...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Physical AI, Embodied AI & Robotics for SAP Business AI]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/0f87e5</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/0f87e5"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Physical AI combines agentic AI with cognitive robots to automate physical-world tasks within the business process, enabling end-to-end automation.]]></summary>
+        <content type="html"><![CDATA[Physical AI is a broad category that includes all forms of intelligence in the physical world, including vision systems, digital twins, industrial equipment, sensors, and robotic hardware. Embodied AI is a subset of physical AI which combines intelligence and reasoning with a physical body, such as a robot, that can both perceive its environment and execute physical tasks through that body. Examples of physical bodies include cameras, drones, industrial robots, quadruped robots, mobile robots, a...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quality Inspection with Physical AI and Robotics]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/90f40f</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/90f40f"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how Physical AI automates quality inspection across warehouse and manufacturing, using SAP Digital Manufacturing, S/4HANA, and EWM.]]></summary>
+        <content type="html"><![CDATA[Quality inspection as an activity occurs across various business processes. Examples include as part of warehouse pick & place operations, or as part of manufacturing and production processes. Get in touch with SAP to discuss. Architecture Associated SAP applications: 1. SAP S/4HANA Manufacturing for planning and scheduling (S/4 PP) 2. SAP Digital Manufacturing (DM) 3. SAP Extended Warehouse Management (EWM) Examples in an SAP Context - SAP Expands Physical AI Partnerships and Demonstrates Succe...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Health & Safety Inspection with Physical AI Agents]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/9ca181</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/9ca181"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how Physical AI delivers continuous health and safety inspection, embedding objective safety monitoring into daily operations with SAP S/4HANA for EHS.]]></summary>
+        <content type="html"><![CDATA[Physical AI for health & safety inspection provides continuous, objective safety monitoring embedded into daily operations. Get in touch with SAP to discuss. Architecture Key Components Safety-Related Software Health and safety related "missions" and "tasks" for robots are derived from compliance regulations, safety checklists, and other such processes. The relevant SAP application for health and safety is SAP S/4HANA for EHS workplace safety (EHS). Observations during the safety inspection and...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Asset Inspection with Physical AI and Robotics]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/bd733b</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/bd733b"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Physical AI and robotics automate asset management, performing autonomous asset and site inspections with SAP APM and Field Service Management.]]></summary>
+        <content type="html"><![CDATA[Get in touch with SAP to discuss. Key Capabilities Physical AI for asset inspections addresses the following challenges : 1. Unplanned Downtime Costs : reactive maintenance leads to equipment failure and production losses 2. Diagnostic Inaccuracy : technicians often arrive at assets without the context, leading to low fix rates 3. Manual Inspection Risks : sending personnel into hazardous or remote areas for routine visual checks increases safety liability Typical business benefits include: 1. A...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Warehouse Pick & Place with Physical AI Robotics]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/7e4168</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/7e4168"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Physical AI & robotics can automate warehouse operations for picking, placing, sorting, and other warehouse tasks.]]></summary>
+        <content type="html"><![CDATA[Warehouse automation is typically divided into physical and digital automation. Existing warehouse automation physical devices like Autonomous Mobile Robots (AMRs) can automate movement of items. In the digital world, warehouse AI agents can create and manage transfer orders, but can't physically pick items. Physical AI for warehouse pick & place cases combine these approaches: AI agents with physical bodies are able to complete warehouse tasks end-to-end. Get in touch with SAP to discuss. Key C...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Extensibility, Interoperability, and Partner Technologies]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/9673f9</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/9673f9"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SAP's Physical AI architecture is built for extensibility and interoperability, letting partners extend it with custom connectors, hardware, and AI models.]]></summary>
+        <content type="html"><![CDATA[SAP's Physical AI architecture is designed with extensibility and interoperability in mind. These design principles are especially vital for delivering end-to-end Physical AI due to the following factors: 1. SAP's vendor-agnostic ecosystem approach, leveraging partner technologies across hardware, software, and artificial intelligence capabilities 2. Generalizability of the architecture for different use cases, including cross-suite use cases 2. Adaptability to each customer's individual process...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API Managed Integration with SAP Integration Suite]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/5f90af</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/5f90af"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enable secure, omni-channel API access to business apps with SAP Integration Suite, simplifying governance, security, and API consumption.]]></summary>
+        <content type="html"><![CDATA[Application Programming Interfaces (APIs) enable integration, interoperability, and data sharing between software systems. With the help of an API management solution like the API Management capability within SAP Integration Suite, you can provide omni-channel and secure access to solutions. Furthermore, it allows you to enforce usage policies for APIs, control API access, analyze API consumption, and more. This reference architecture is based on the concepts of the SAP Integration Solution Advi...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Business AI Platform]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/5hj89h</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/5hj89h"/>
+        <updated>2026-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The SAP Business AI platform brings together deep process context, unified data, and enterprise-grade governance to ensure that AI solutions are reliable, compliant, and impactful.]]></summary>
+        <content type="html"><![CDATA[SAP Business AI Platform The SAP Business AI Platform is SAP's enterprise AI foundation providing the infrastructure, data intelligence, and governance required to run trusted AI at enterprise scale. Built on enterprise-grade security, governance, and data frameworks, it is deeply integrated with SAP's business applications and process knowledge. When Joule Work is provisioned, the platform is delivered as an integrated bundle — customers do not need to assemble or operate its components indepen...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joule Studio]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/d2ba1e</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/d2ba1e"/>
+        <updated>2026-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Build and deploy AI agents with Joule Studio — SAP's AI-native development environment, covering the Low-Code Flow and Pro-Code Flow, both powered by Intent-Based Development (IBD).]]></summary>
+        <content type="html"><![CDATA[Joule Studio is SAP's AI-native development environment for building custom agents, apps, and workflows — grounded in SAP business context and deployed to the SAP-managed runtime as part of the SAP Business AI Platform. The underlying methodology is Intent-Based Development (IBD) : a structured, AI-driven workflow that takes you from a business intent all the way to a deployed, production-ready solution. IBD works by combining SAP-specific knowledge (SAP Knowledge Graph, SAP LeanIX enterprise la...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Lakehouse]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/56442f</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/56442f"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Open Lakehouse foundation for governed SAP and non-SAP Data Products that support analytical and agentic consumption.]]></summary>
+        <content type="html"><![CDATA[SAP Lakehouse is the unified platform for managing SAP and non-SAP data across multi-cloud, hybrid and on-premise environments. Enterprise data architectures for AI require continuous, context-rich understanding of data across systems and domains. This architecture describes the Lakehouse layer, where that foundation is built. SAP and non-SAP data is refined into trusted Data Products on open formats, enriched with master data, business semantics and business relationships, shared zero-copy with...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Entity Unification with Reltio in SAP BDC]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/6bf1fa</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/6bf1fa"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How SAP Business Data Cloud uses Reltio to resolve duplicate records from SAP and non-SAP sources into trusted, unified data products through AI-assisted match review and governed merge.]]></summary>
+        <content type="html"><![CDATA[Overview A single real-world entity rarely exists as a single record in the data estate of a complex organization. The same customer can appear as a CRM contact, an e-commerce account, a mobile sign-up, and an ERP business partner. Each has its own identifier, spelling, partial attributes, and consent state. Analytics and AI built on top see several entities where there is one. Within the SAP Lakehouse, Reltio is the managed master data management (MDM) capability that resolves these fragments i...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dremio Lakehouse Compute in SAP BDC]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/cc28e4</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/cc28e4"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How SAP BDC uses Dremio as the lakehouse compute engine, building Primary and Derived Data Products across the medallion tiers with reflections, open Iceberg format, and zero-copy non-SAP access.]]></summary>
+        <content type="html"><![CDATA[Overview Dremio integrates with SAP Business Data Cloud (BDC) as a high-performance, federated SQL query engine that complements SAP HANA Cloud. It is the lakehouse compute and acceleration engine of the SAP Lakehouse. Its Sonar SQL engine enables direct federated queries across HDLFS and partner object stores, with native Apache Iceberg access, allowing workloads to query distributed data without requiring unnecessary data movement or duplication. Within the BDC architecture, running alongside...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Products in SAP Lakehouse]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/09be8b</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/09be8b"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Standardize data sharing with SAP Data Products for efficient, high-quality metadata and seamless integration.]]></summary>
+        <content type="html"><![CDATA[Data Products is the fundamental building block of SAP Business Data Cloud and it serves as a standardized and efficient way to share and consume data across applications and domains. They enable analytic scenarios, AI applications, and facilitate data integration while being optimized for intensive reads. Managed with a product mindset, they are supported by high-quality metadata and governed by decentralized ownership principles. Purpose of Data Products Customers currently face challenges whe...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Copilot Integration with Joule Agents]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/a2c0f1</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/a2c0f1"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Integrate Microsoft Copilot with Joule Agents through the SAP Agent Gateway, using Copilot Studio as the orchestration layer with Microsoft Entra ID and SAP Cloud Identity Services federation.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) - the current architecture reflects a transitional state that highlights the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular, the Agent Gateway is not yet GA. The patterns outlined here show how the integration between Microsoft Copilot Studio and SAP can be done today and will evolve as those capabilities are released. Microsoft Copilot is Mi...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Quick Integration with Joule Agents]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/b4d7e2</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/b4d7e2"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Connect Amazon Quick to Joule Agents via AWS AgentCore and the SAP Agent Gateway, with end-to-end user identity propagation across Cognito and SAP Cloud Identity Services.]]></summary>
+        <content type="html"><![CDATA[Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state that highlights the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular, the Agent Gateway is not yet GA. The pattern outlined here shows how the integration between AWS and SAP can be done today and will evolve as those capabilities are released. Amazon Quick gives users a natural-language...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non-SAP Agent Principal Propagation]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/07cfe4</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/07cfe4"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How a third-party agent's user principal is securely propagated to SAP solutions via SAP Cloud Identity Services and the Agent Gateway, using OAuth 2.0 token exchange.]]></summary>
+        <content type="html"><![CDATA[This sub-page of the SAP-managed integration model describes principal propagation for non-SAP AI agents : how the acting principal of a third-party agent is carried, validated, and asserted when that agent interacts with SAP solutions through SAP Cloud Identity Services and the SAP Agent Gateway. It focuses on the scenario where third-party agents call SAP agents , and documents two integration variants — a front channel and a back channel flow. It is the SAP-managed IAM companion to Third-Part...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joule Work]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/bc7811</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/bc7811"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A reference architecture for SAP-managed Joule, enabling AI-powered assistance across SAP solutions with minimal setup effort.]]></summary>
+        <content type="html"><![CDATA[Joule Work Note Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state highlighting the relevant building blocks for Joule Work, coming together with the SAP Business AI Platform. Joule Work is SAP's AI-powered engagement layer — the product through which users interact with Joule Assistants and Joule Agents across the SAP portfolio and third-party applications. Joule Work is delivered exclusiv...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP-managed Task Center]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/356shj</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/356shj"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A reference architecture for SAP-managed Task Center, enabling a unified inbox for tasks across SAP solutions with minimal setup effort.]]></summary>
+        <content type="html"><![CDATA[What is SAP Task Center? SAP Task Center is the SAP unified inbox solution that provides a single entry point for end users to access and process all their assigned tasks . This is achieved through integration with SAP and non-SAP applications. The tasks can be accessed by end users through the SAP Task Center Web app or Joule Work. Flow The reference architecture diagram shows the SAP Task Center integration with various task providers. 1. For identity management and authentication, the SAP Tas...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Extend Joule with Joule Studio Classic in SAP Build]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/ff07b1</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/ff07b1"/>
+        <updated>2026-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Build custom Joule Skills and AI Agents with Joule Studio Classic in SAP Build to extend Joule and automate processes across SAP and non-SAP systems.]]></summary>
+        <content type="html"><![CDATA[Joule Studio Classic in SAP Build is a comprehensive platform for developing and enhancing AI capabilities with a user-friendly experience. It empowers both business users and technologists to become AI citizen developers. Utilizing intuitive low-code tools, Joule Studio Classic enables the creation of custom Joule Skills and AI Agents, expanding the functionalities of Joule Copilot and optimizing organization-specific automation. This reference architecture outlines how Joule Studio Classic can...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Training-Free Predictive Analytics over a Semantic Lakehouse]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/a45y7d</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/a45y7d"/>
+        <updated>2026-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deliver predictions from tabular foundation models without training runs, by promoting the governed semantic layer to the critical path of every inference request.]]></summary>
+        <content type="html"><![CDATA[Training-Free Predictive Analytics over a Semantic Lakehouse Predictive analytics in enterprise settings has traditionally required per-use-case training pipelines: feature engineering, feature stores, training runs, model registries, and retraining loops. Tabular foundation models give us a training-free approach and remove the need to copy data, run per-tenant training runs, and host a large number of small models. Deleting the training stage does not remove work, it relocates it. The work mov...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP AI Agent Hub]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/jfhsd9</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/jfhsd9"/>
+        <updated>2026-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Govern AI agents across their lifecycle with SAP AI Agent Hub, the enterprise command center for agent discovery, observability, and compliance.]]></summary>
+        <content type="html"><![CDATA[As AI agents proliferate across enterprise systems — spanning SAP, third-party cloud platforms, and custom deployments — organizations need a systematic way to discover, verify, observe, and govern their entire agent estate. SAP AI Agent Hub is the enterprise command center for AI governance: a single platform that brings enterprise architecture discipline to AI agent management, built on SAP LeanIX. AI Agent Hub addresses a fundamental challenge: while building and deploying individual agents i...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP-Managed IAM Integration]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/d94f2a</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/d94f2a"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SAP-operated IAM integration between SAP solutions — three maturity stages toward SAP Cloud Identity Services as the central leading system, enabling Joule and the SAP Business AI Platform.]]></summary>
+        <content type="html"><![CDATA[In the SAP-managed integration model, SAP operates the IAM integration between SAP solutions as part of a managed experience. The customer continues to federate its users to SAP Cloud Identity Services, but the trust, provisioning, and authorization wiring that connects the SAP solutions to each other is pre-configured and operated by SAP. This model is what makes cross-application SAP experiences possible — SAP Task Center, SAP Joule, and the agentic capabilities of the SAP Business AI Platform...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joule Landscape Recommendation]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/b95ce4</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/b95ce4"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recommended landscape setup for a unified Joule experience]]></summary>
+        <content type="html"><![CDATA[Setting up Joule Work in an existing SAP landscape requires an integration into SAP Cloud Identity Services. Joule and SAP Cloud Identity Services are provided in two stages (Test and Production), while many other SAP systems in a typical landscape exist in more than 2 stages, such as Sandbox, Development, Test, Pre-Prod and Production. Identities in such landscapes with more than 2 stages are typically treated as productive also on non-productive systems. For example, a developer on a developme...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SAP Cloud Identity Services Centrally Leading]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/36dc54</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/36dc54"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stage 3 of SAP-managed IAM — SAP Cloud Identity Services as the central leading system for identities and authorization, as realized in the Autonomous Suite.]]></summary>
+        <content type="html"><![CDATA[This is the target stage of the SAP-managed integration model. SAP Cloud Identity Services becomes the central leading system for identities and for authorization assignment across the SAP solutions. The applications no longer act as independent sources of truth; instead they consume identities and policy assignments from the Identity Directory. This end-state is exemplified by the Autonomous Suite , where the suite's applications share one identity authority. It is also the direction of the con...]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unified architecture, Unified experience, Application IAM Leading]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/c39aee</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/c39aee"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stage 2 of SAP-managed IAM — a unified cross-application experience where individual application IAM remains the leading authority for identities.]]></summary>
+        <content type="html"><![CDATA[This is the second stage of the SAP-managed integration model. The managed experience now spans multiple SAP applications as one coherent experience — a user engages a single Joule across SAP S/4HANA, SAP SuccessFactors, SAP Ariba and others, rather than a separate scoped experience per application as in Stage 1. The decisive characteristic of this stage is that, although the experience is unified, the individual applications' IAM remains the leading authority for identities and authorizations....]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unified architecture with a Line-of-Business–Scoped Experience]]></title>
+        <id>https://navyakhurana.github.io/architecture-center/docs/ref-arch/3b0f86</id>
+        <link href="https://navyakhurana.github.io/architecture-center/docs/ref-arch/3b0f86"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stage 1 of SAP-managed IAM — a line-of-business–scoped managed experience with consolidatable users sharing a Global User ID in SAP Cloud Identity Services.]]></summary>
+        <content type="html"><![CDATA[This is the first stage of the SAP-managed integration model. The SAP-managed experience is introduced for a single line-of-business application — for example activating Joule for SAP S/4HANA Cloud, or for SAP SuccessFactors — without yet requiring a landscape-wide consolidation of identities. Each line-of-business application continues to keep its own users. What makes this stage managed rather than merely isolated is that every user is cached (hidden) in the Identity Directory of SAP Cloud Ide...]]></content>
+    </entry>
+</feed>
